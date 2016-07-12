@@ -1,0 +1,18 @@
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<title>Repeat Counter</title>
+</head>
+<div class = "container">
+  <h1 class= "text-center">Repeat Counter</h1>
+  <form action="/Find" method="post">
+    <div class = "form-group">
+      <label for="searchPhrase">Phrase or Sentence to Search</label>
+     <textarea class = "form-control" rows="3"  id="searchPhrase" name="searchPhrase">The red fox chased the brown dog.</textarea>
+    </div>
+    <div class = "form-group">
+      <label for="word" id="word-label">Word to Find</label>
+      <input class = "form-control"  id="word" name="word" type="text" value="the">
+    </div>
+    <button type="submit"  class="btn btn-default center-block" >Count Occurrences of My Word!</button>
+  </form>
+</div>
